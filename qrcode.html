@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: hsl(212, 45%, 89%);
+        }
+        .parent {
+            background-color: white;
+            width: 200px;
+            height: 310px;
+            border-radius: 10px;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .qr-code {
+            width: 180px;
+            margin-left: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        p {
+            background-color: white;
+            font-family: Outfit;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+           
+        }
+        .title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 8px;
+            margin-bottom: 0px;
+        }
+        .description {
+            font-size: 10px;
+            font-weight: 400;
+            color: gray;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+            <img class="qr-code" src="images/image-qr-code.png">
+            <p class="title">
+                Improve your front-end skills by building projects
+            </p>
+            <p class="description"> 
+                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </p>
+    </div>
+</body>
+</html>
